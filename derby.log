@@ -1,0 +1,48 @@
+----------------------------------------------------------------
+Fri Jul 22 12:37:44 EEST 2016:
+ Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): экземпляр a816c00e-0156-11f7-bde0-0000027e9ea8
+в каталоге базы данных P:\Programs\ShopOfItemsNew\shopOfItemsDB sun.misc.Launcher$AppClassLoader@3a47c130 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_79-b15
+user.dir=P:\Programs\ShopOfItemsNew
+os.name=Windows 8.1
+os.arch=amd64
+os.version=6.3
+derby.system.home=null
+Запущен загрузчик классов базы данных - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Jul 22 12:37:45 EEST 2016:
+Завершается работа экземпляра a816c00e-0156-11f7-bde0-0000027e9ea8
+----------------------------------------------------------------
+Fri Jul 22 12:37:45 EEST 2016:
+ Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): экземпляр 08264012-0156-11f7-bde0-0000027e9ea8
+в каталоге базы данных P:\Programs\ShopOfItemsNew\shopOfItemsDB sun.misc.Launcher$AppClassLoader@3a47c130 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_79-b15
+user.dir=P:\Programs\ShopOfItemsNew
+os.name=Windows 8.1
+os.arch=amd64
+os.version=6.3
+derby.system.home=null
+Запущен загрузчик классов базы данных - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Jul 22 12:37:46 EEST 2016:
+Завершается работа экземпляра 08264012-0156-11f7-bde0-0000027e9ea8
+----------------------------------------------------------------
+Fri Jul 22 12:37:48 EEST 2016:
+ Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): экземпляр 6839c016-0156-11f7-bde0-0000027e9ea8
+в каталоге базы данных P:\Programs\ShopOfItemsNew\shopOfItemsDB sun.misc.Launcher$AppClassLoader@3a47c130 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_79-b15
+user.dir=P:\Programs\ShopOfItemsNew
+os.name=Windows 8.1
+os.arch=amd64
+os.version=6.3
+derby.system.home=null
+Запущен загрузчик классов базы данных - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Jul 22 12:37:48 EEST 2016:
+Завершается работа экземпляра 6839c016-0156-11f7-bde0-0000027e9ea8

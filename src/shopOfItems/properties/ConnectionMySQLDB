@@ -1,0 +1,4 @@
+classInstance = com.mysql.jdbc.Driver
+URL = jdbc:mysql://localhost:3306/shopOfItems?useSSL=false
+UserName = root
+Password = root
