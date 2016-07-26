@@ -19,15 +19,12 @@ public class TestDataSource {
     DataSource dataSource;
     Connection connection;
 
-    int localhostNumber = 3306;
-    String username = "root";
-    String password = "root";
-
     @Before
     public void init() {
         connection = null;
         try {
-            dataSource = DataSource.getInstance("jdbc:mysql://localhost:");// + localhostNumber + "/shopOfItems?useSSL=false", username, password);
+            dataSource = DataSource.getInstance();
+            dataSource.createConnection("shopOfItems/properties/ConnectionMySQL");
 
         } catch (IOException | SQLException | PropertyVetoException e) {
             e.printStackTrace();

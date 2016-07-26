@@ -3,12 +3,12 @@
     <output-path>$PROJECT_DIR$/out/artifacts/ShopOfItemsNew_jar</output-path>
     <root id="archive" name="ShopOfItemsNew.jar">
       <element id="module-output" name="ShopOfItemsNew" />
-      <element id="extracted-dir" path="P:/Loads/mysql-connector-java-5.1.38/mysql-connector-java-5.1.38/mysql-connector-java-5.1.38-bin.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../db-derby-10.12.1.1-bin/db-derby-10.12.1.1-bin/lib/derby.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../c3p0-0.9.5.2.bin/c3p0-0.9.5.2/lib/c3p0-oracle-thin-extras-0.9.5.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../c3p0-0.9.5.2.bin/c3p0-0.9.5.2/lib/mchange-commons-java-0.2.11.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../mockito-all-1.10.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="P:/Loads/mysql-connector-java-5.1.38/mysql-connector-java-5.1.38/mysql-connector-java-5.1.38-bin.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../c3p0-0.9.5.2.bin/c3p0-0.9.5.2/lib/mchange-commons-java-0.2.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../c3p0-0.9.5.2.bin/c3p0-0.9.5.2/lib/c3p0-oracle-thin-extras-0.9.5.2.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../c3p0-0.9.5.2.bin/c3p0-0.9.5.2/lib/c3p0-0.9.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../db-derby-10.12.1.1-bin/db-derby-10.12.1.1-bin/lib/derby.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

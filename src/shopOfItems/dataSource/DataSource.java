@@ -19,10 +19,12 @@ public class DataSource {
 
     private int maxSize = 10;
 
-    private DataSource(String propertiesFileName) throws IOException, SQLException, PropertyVetoException {
+    private DataSource() throws IOException, SQLException, PropertyVetoException {
         properties = new Properties();
+    }
+
+    public void createConnection(String propertiesFileName) throws IOException, SQLException, PropertyVetoException{
         inputStream = getClass().getClassLoader().getResourceAsStream(propertiesFileName);
-        System.out.println(propertiesFileName);
         properties.load(inputStream);
 
         cpds = new ComboPooledDataSource();
@@ -37,10 +39,9 @@ public class DataSource {
         cpds.setMaxStatements(20);
     }
 
-    public static DataSource getInstance(String propertiesFileName) throws IOException, SQLException, PropertyVetoException {
-
+    public static DataSource getInstance() throws IOException, SQLException, PropertyVetoException {
         if (datasource == null){
-        datasource = new DataSource(propertiesFileName);
+        datasource = new DataSource();
             return datasource;
         } else {
             return datasource;

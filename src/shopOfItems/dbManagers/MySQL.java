@@ -18,18 +18,15 @@ public class MySQL extends AbstractManagementSystem {
     @Override
     public void connectionToDB() {
         try {
-            Class.forName("com.mysql.jdbc.Driver").newInstance();
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306", "root", "root");
+            dataSource = DataSource.getInstance();
+            dataSource.createConnection("shopOfItems/properties/ConnectionMySQL");
+            connection = getConnection();
 
             statement = connection.createStatement();
             statement.executeUpdate(createDB);
-        } catch (SQLException | ClassNotFoundException | InstantiationException | IllegalAccessException e) {
-            e.printStackTrace();
-        }
 
-        try {
-            dataSource = DataSource.getInstance("shopOfItems/properties/ConnectionMySQLDB");
-        } catch (IOException | PropertyVetoException | SQLException e) {
+            dataSource.createConnection("shopOfItems/properties/ConnectionMySQLDB");
+        } catch (IOException | SQLException | PropertyVetoException e) {
             e.printStackTrace();
         }
 
