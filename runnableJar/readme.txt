@@ -76,3 +76,5 @@ MySQL - для работы с этой базой данных нужно чт�
 https://www.youtube.com/watch?v=orrQCBYhWhc
   
 https://www.youtube.com/watch?v=f46WEeM8HTA&list=PLB7BB551126EDD5E0
+
+http://struts.jgeppert.com/struts2-jquery-showcase/index.action
