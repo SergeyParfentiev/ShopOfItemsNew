@@ -80,3 +80,5 @@ https://www.youtube.com/watch?v=f46WEeM8HTA&list=PLB7BB551126EDD5E0
 http://struts.jgeppert.com/struts2-jquery-showcase/index.action
 
 https://jsfiddle.net/2nk5eLm5/4/
+
+http://www.typingstudy.com/
