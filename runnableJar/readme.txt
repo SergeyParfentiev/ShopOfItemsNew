@@ -86,3 +86,5 @@ http://www.typingstudy.com/
 http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_key_keycode
 
 http://jquery.page2page.ru/index.php5/%D0%9A%D0%BE%D0%B4%D1%8B_%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%BE%D0%B2_%D0%B8_%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D1%88
+
+https://learn.javascript.ru/keyboard-events
